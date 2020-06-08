@@ -1,0 +1,17 @@
+{
+	"auth": {
+		"amplifyapp2e39ec8b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"predictions": {
+		"identifyText19a81d39": {
+			"providerPlugin": "awscloudformation",
+			"service": "RekognitionAndTextract",
+			"dependsOn": [],
+			"identifyType": "identifyText"
+		}
+	}
+}

@@ -1,0 +1,2 @@
+rootProject.name='AmplifyApp'
+include ':app'
